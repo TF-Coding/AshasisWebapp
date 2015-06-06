@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head><title>ASHASIS-Controller 0.9.0</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.min.css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="stylesheets/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="stylesheets/dashboard.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!--[if lt IE 9]><!-->
+    <script src="javascripts/html5shiv-3.7.2.min.js"></script>
+    <script src="javascripts/respond-1.4.2.min.js"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="javascripts/test.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar" class="navbar-toggle collapsed"><span
+                    class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+                    class="icon-bar"></span></button>
+            <a href="http://asha.systems" target="_blank" class="navbar-brand">ASHASIS</a></div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/ashasis/">Übersicht</a></li>
+                <li><a href="/ashasis/mapping">Item-Zuweisung</a></li>
+            </ul>
+            <form class="navbar-form navbar-right"><input type="text" placeholder="Search..." class="form-control">
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="active"><a href="/ashasis/overview">Overview<span class="sr-only">(current)</span></a></li>
+                <li><a href="/ashasis/reports">Reports</a></li>
+                <li><a href="/ashasis/analytics">Analytics</a></li>
+                <li><a href="/ashasis/export">Export</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2"><h1></h1>
+
+            <p>Welcome to </p>
+
+            <form action="/relay" id="testFrm"><input type="text" id="inp"><input type="button" id="btn"></form>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <tr>
+                        <th> C1</th>
+                        <th> C2</th>
+                        <th> C3</th>
+                        <th> C4</th>
+                        <th> C5</th>
+                    </tr>
+                    <tr>
+                        <td>D1- 1</td>
+                        <td>D2- 1</td>
+                        <td>D3- 1</td>
+                        <td>D4- 1</td>
+                        <td>D5- 1</td>
+                    </tr>
+                    <tr>
+                        <td>D1- 2</td>
+                        <td>D2- 2</td>
+                        <td>D3- 2</td>
+                        <td>D4- 2</td>
+                        <td>D5- 2</td>
+                    </tr>
+                    <tr>
+                        <td>D1- 3</td>
+                        <td>D2- 3</td>
+                        <td>D3- 3</td>
+                        <td>D4- 3</td>
+                        <td>D5- 3</td>
+                    </tr>
+                    <tr>
+                        <td>D1- 4</td>
+                        <td>D2- 4</td>
+                        <td>D3- 4</td>
+                        <td>D4- 4</td>
+                        <td>D5- 4</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="javascripts/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="javascripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="javascripts/ie10-viewport-bug-workaround.js"><!-- p= request.method--><!-- p= request.originalUrl--><!-- p= request.route.path--><!-- p= request.url--><!-- p= test('123')--></script>
+</body>
+</html>
